@@ -19,7 +19,7 @@ a{text-decoration:none;color:inherit} button,input,textarea,select{font:inherit}
 .container{width:min(1120px,92%);margin:auto}
 header{position:sticky;top:0;z-index:20;background:rgba(16,20,29,.86);backdrop-filter:blur(16px);border-bottom:1px solid rgba(255,255,255,.07)}
 .nav{height:74px;display:flex;align-items:center;justify-content:space-between}
-.logo{display:flex;align-items:center;gap:11px;font-weight:850;font-size:20px}.logo-image{width:62px;height:62px;object-fit:contain;display:block}
+.logo{display:flex;align-items:center;gap:8px;font-weight:850;font-size:20px}.logo-image{width:52px;height:52px;object-fit:contain;display:block;flex-shrink:0}
 nav{display:flex;gap:27px;font-size:13px;color:#c3c8d4}nav a:hover{color:#fff}
 .nav-btn,.primary{background:var(--cream);color:#171b24;padding:11px 17px;border-radius:12px;font-weight:850}
 .hero{position:relative;overflow:hidden;padding:88px 0 78px;border-bottom:1px solid var(--line)}
@@ -44,7 +44,22 @@ footer{background:#090c12;padding:38px 0}.footer{display:flex;justify-content:sp
 </style>
 </head>
 <body>
-<header><div class="container nav"><a class="logo" href="#"><img class="logo-image" src="Logo%20PROJET%281%29.png" alt="Campus Avenir"></a><nav><a href="#solutions">Je cherche</a><a href="#accompagnement">Être aidé</a><a href="#evenements">Événements</a><a href="#contact">Contact</a></nav><a class="nav-btn" href="#questionnaire">Nous contacter</a></div></header>
+<header>
+  <div class="container nav">
+    <a class="logo" href="#">
+      <img class="logo-image" src="Logo%20PROJET%282%29.png" alt="Campus Avenir">
+      Campus Avenir
+    </a>
+    <nav>
+      <a href="#solutions">Je cherche</a>
+      <a href="#accompagnement">Être aidé</a>
+      <a href="#evenements">Événements</a>
+      <a href="#contact">Contact</a>
+    </nav>
+    <a class="nav-btn" href="#questionnaire">Nous contacter</a>
+  </div>
+</header>
+
 <main>
 <section class="hero"><div class="container hero-grid"><div><div class="badge">Un projet pensé par des étudiants, pour les étudiants</div><h1>On t'aide à<br><span>avancer.</span></h1><p>Tu cherches un stage, une alternance, une école, un logement ou simplement quelqu'un pour t'aider ? Campus Avenir rassemble les infos et les personnes qui peuvent te donner un coup de main.</p><div class="actions"><a class="primary" href="#solutions">Voir ce qu'on propose →</a><a class="secondary" href="#questionnaire">J'ai besoin d'aide</a></div></div><div class="hero-card"><div class="hero-top"><small>MON PROJET</small><h3>Petit à petit, on construit la suite.</h3><div class="progress"><div></div></div><small style="display:block;margin-top:8px">Des ressources pour chaque étape</small></div><div class="mini-grid"><div class="mini"><strong>💼</strong><span>Stage / alternance</span></div><div class="mini"><strong>🎓</strong><span>Écoles / études</span></div><div class="mini"><strong>💶</strong><span>Aides / dons</span></div><div class="mini"><strong>🤝</strong><span>Rencontres / conseils</span></div></div></div></div></section>
 <section id="solutions"><div class="container"><div class="section-head"><h2>Tu cherches quelque chose ? Commence ici.</h2><p>Pas besoin de tout connaître. Choisis simplement ce dont tu as besoin et regarde les ressources disponibles.</p></div><div class="cards"><article class="card"><div class="icon">💼</div><h3>Stage & alternance</h3><p>Des offres, des conseils pour ton CV et des idées pour trouver plus facilement.</p><a class="link" href="#contact">Je cherche →</a></article><article class="card"><div class="icon">🎓</div><h3>Écoles & formations</h3><p>Découvre des formations et des établissements qui peuvent correspondre à ton projet.</p><a class="link" href="#contact">En savoir plus →</a></article><article class="card"><div class="icon">💶</div><h3>Aides financières</h3><p>Bourses, aides et autres ressources : on t'aide à savoir où chercher.</p><a class="link" href="#contact">Voir les aides →</a></article><article class="card"><div class="icon">🏠</div><h3>Logement</h3><p>Des informations et des pistes pour t'aider dans ta recherche de logement.</p><a class="link" href="#contact">Chercher →</a></article><article class="card"><div class="icon">📝</div><h3>CV & candidatures</h3><p>Des conseils simples pour préparer un CV, une lettre et un dossier qui te ressemble.</p><a class="link" href="#questionnaire">Besoin d'aide →</a></article><article class="card"><div class="icon">🤝</div><h3>Rencontres</h3><p>Échange avec des professeurs ou des particuliers pour poser tes questions et avancer.</p><a class="link" href="#evenements">Découvrir →</a></article></div></div></section>
